@@ -1,6 +1,7 @@
 var webpack = require("webpack");
 
 module.exports = {
+  devtool: "eval",
   entry: [
     "./react/App.jsx"
   ],
